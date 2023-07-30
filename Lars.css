@@ -1,0 +1,51 @@
+ .col1 {
+     width: 30px;
+ }
+
+ .image {
+     height: 290px;
+     width: 620px;
+     display: block;
+
+ }
+
+ .col-4 {
+     position: relative;
+     width: 630px;
+ }
+
+ .overlay {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 290px;
+     width: 632px;
+     opacity: 0;
+     transition: 0.5s ease;
+     background-color: #f8fa87;
+ }
+
+ .col-4:hover .overlay {
+     opacity: 1;
+ }
+
+ .col-2 {
+     width: 40px;
+ }
+
+ .text {
+     color: rgb(19, 17, 17);
+     font-size: 25px;
+     position: absolute;
+     top: 80%;
+     right: 70%;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+ }
+
+ a:hover {
+     background-color: #f8fa87;
+ }
